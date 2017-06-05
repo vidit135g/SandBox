@@ -1,0 +1,220 @@
+html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    width: 1367px;
+    height: 80px;
+    border-bottom: 7px solid #343436;
+}
+
+#logo {
+    float: left;
+}
+
+#name {
+    font-family: monospace;
+    color: white;
+    float: left;
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    margin-left: 6px;
+}
+
+#logo img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+#logo h3 {
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+
+#nav {
+    float: right;
+    margin-right: 20px;
+    background-color: black;
+    margin-top: 19px;
+    border-radius: 6px;
+}
+
+.nav-button {
+    border: 1px solid black;
+    margin-right: 10px;
+    float: left;
+    font-size: 14px;
+    color: white;
+    border-radius: 3px;
+    background-color: #4d4d50;
+    padding: 12px 20px;
+}
+
+#settings {
+    padding-bottom: 9px;
+}
+
+#save {
+    padding-bottom: 11px;
+}
+
+#view {
+    padding-bottom: 13px;
+}
+
+.set-img {
+    float: left;
+    margin-top: -2px;
+    margin-right: 6px;
+}
+
+.nav-button:hover {
+    background-color: #263238;
+    border: 1px solid black;
+}
+
+.nav-button:focus {
+    outline: 0;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropbtn {
+    background-color: rgb(26, 28, 29);
+    color: white;
+    border: 1px solid rgb(26, 28, 29);
+    cursor: pointer;
+    float: right;
+    width: 29px;
+    height: 30px;
+    text-align: left;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: rgb(26, 28, 29);
+    outline: 0;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+
+/* Dropdown Content (Hidden by Default) */
+
+
+/* Change color of dropdown links on hover */
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+#container {
+    width: 1367px;
+    height: 340px;
+    border-bottom: 20px solid #263238;
+}
+
+.panel {
+    padding-right: -2px;
+    border-left: 21px solid #263238;
+    height: 340px;
+    width: 428px;
+    font-family: monospace;
+    float: left;
+}
+
+.panel-head {
+    width: 428px;
+    height: 30px;
+    padding-top: 3px;
+    background-color: rgb(26, 28, 29);
+    border-bottom: 1px solid #263238;
+}
+
+.panel-heading {
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.panel-settings {
+    float: left;
+    padding: 1px;
+    background-color: rgb(26, 28, 29);
+    border: 2px solid rgb(26, 28, 29);
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+.panel-settings:focus {
+    outline: 0;
+}
+
+.panel-settings img {
+    width: 15px;
+    height: 15px;
+}
+
+.editor {
+    height:300px;
+    width: 422px;
+    font-size: 14px;
+    font-family: monospace;
+    background-color: #1d1f20;
+    border: 1px solid #263238;
+    color: white;
+}
+
+.editor:focus {
+    outline: 0;
+}
+
+.dropbtn img {
+    width: 22px;
+    height: 19px;
+}
+
+.paneljs {
+    border-right: 20px solid #263238;
+}
+
+#outPut {
+    width: 1356px;
+    border: 5px solid #263238;
+    font-family: monospace;
+    border-bottom: 15px solid #263238;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:#4d4d50;
+}
+
+.CodeMirror {
+    width: 428px;
+    height: 310px;
+}
